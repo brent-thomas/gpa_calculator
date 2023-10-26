@@ -1,8 +1,4 @@
-# React + Vite
+# GPA Calculator
+A web application designed for students to log and view grades. Built with React, Vite, and an AWS RDS database.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Quick PSA!** As of 10/26/2023, the database is alive and kicking. But given the costs, it'll probably retire to a sunny beach in a few weeks. You'll still have the frontend, though! I'd host it all forever, but apparently, AWS doesn't accept good vibes as payment. 🤷
