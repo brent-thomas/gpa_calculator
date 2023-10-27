@@ -140,3 +140,11 @@
 ul li {
   padding: 10px;
 }
+
+.averages {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}

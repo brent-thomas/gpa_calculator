@@ -41,7 +41,6 @@ const Home = () => {
     });
 }
 
-  
 
  
   return (
@@ -63,7 +62,7 @@ const Home = () => {
         <p className='tip'>Format(89.2)</p>
         <input 
           type='text' 
-          maxLength={4} 
+          maxLength={3} 
           placeholder='99'
           value={grade}
           onChange={(e) => setGrade(e.target.value)}
