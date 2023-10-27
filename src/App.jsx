@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
 import './App.css'
-import Gradebook from './gradebook/gradebook';
+import Gradebook from './gradebook/Gradebook';
 import Home from './Home/Home';
 import logo from './assets/gpa.png'
 
