@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
-  const history = useHistory();
+  const navigate = useNavigate();
   const [studentId, setStudentId] = useState('')
   const [grade,setGrade] = useState('')
 
@@ -33,8 +33,7 @@ const Home = () => {
     })
     .then(data => {
         console.log(data);
-        history.push('/gradebook');
-
+        navigate('/gradebook');
         return data;
     })
     .catch(error => {
