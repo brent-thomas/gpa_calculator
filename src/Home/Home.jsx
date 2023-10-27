@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
+import { useHistory } from 'react-router-dom';
 
 const Home = () => {
+  const history = useHistory();
   const [studentId, setStudentId] = useState('')
   const [grade,setGrade] = useState('')
 
@@ -31,6 +33,8 @@ const Home = () => {
     })
     .then(data => {
         console.log(data);
+        history.push('/gradebook');
+
         return data;
     })
     .catch(error => {
